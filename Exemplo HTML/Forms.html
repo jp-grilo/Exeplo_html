@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML do Grilo</title>
+</head>
+
+<body>
+    <header>
+    <nav>
+        <a href="Index.html">
+            <img src="donut-png.png" width="100" height="90">
+        </a> | 
+        <a href="Forms.html">Formularios:</a> | 
+        <a href="Hire_us.html">Contacte-me!</a>
+        <hr>
+    </nav>
+</header>
+    <section>
+        <h1>Exmplo de uso de formularios:</h1>
+        <form>
+            <div>
+                <label for="nome">Formulario de texto:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome aqui" autocomplete="off"><br>
+                <label for="email">Pode ser usado tanto para email</label>
+                <input type="email" name="email" id="email" placeholder="Seu email aqui" autocomplete="off"><br>
+                <label for="password">Ou para senha (deixando escondido os caracteres)</label>
+                <input type="password" name="password" id="password" placeholder="Sua senha aqui" autocomplete="off">
+            </div>
+            <div>
+                <p>Formulario do tipo "radio":</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+            <div>
+                <p>Formulario do tipo "checkbox":</p>
+                <label for="HTML">Eu sei HTML</label>
+                <input type="checkbox" name="HTML" id="HTML" value="C_HTML"><br>
+                <label for="CSS">Eu sei CSS</label>
+                <input type="checkbox" name="CSS" id="CSS" value="C_CSS"><br>
+                <label for="JS">Eu sei JS</label>
+                <input type="checkbox" name="JS" id="JS" value="C_JS">
+            </div>
+            <div>
+                <br><label for="language">Formulario do tipo select:</label>
+                <select name="laguage" id="language">
+                    <option value="L_HTML">HTML</option>
+                    <option value="L_CSS">CSS</option>
+                    <option value="L_JS">JS</option>
+                </select>
+            </div>
+        </form>
+        <p>Entre outros mais!</p>
+
+    </section>
+</body>
+
+</html>
